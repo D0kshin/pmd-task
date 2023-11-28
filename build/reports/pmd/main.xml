@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.51.0" timestamp="2023-11-28T22:40:37.247">
+<file name="C:\Users\kocha\ideaProjects\pmd-task\src\main\java\application\Alert.java">
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="23" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="application" class="Alert" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the printer field if you want a default access modifier
+</violation>
+<violation beginline="15" endline="15" begincolumn="44" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="Alert" method="makeAlert" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'msg' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="31" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="Alert" method="makeAlert" variable="title" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'title' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\kocha\ideaProjects\pmd-task\src\main\java\application\BillController.java">
+<violation beginline="42" endline="42" begincolumn="31" endcolumn="32" rule="ShortVariable" ruleset="Code Style" package="application" class="BillController" variable="df" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like df
+</violation>
+<violation beginline="52" endline="52" begincolumn="16" endcolumn="26" rule="FieldNamingConventions" ruleset="Code Style" package="application" class="BillController" variable="lbl_pSerial" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'lbl_pSerial' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="54" endline="54" begincolumn="17" endcolumn="27" rule="FieldNamingConventions" ruleset="Code Style" package="application" class="BillController" variable="add_product" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'add_product' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="54" endline="54" begincolumn="29" endcolumn="41" rule="FieldNamingConventions" ruleset="Code Style" package="application" class="BillController" variable="clear_product" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'clear_product' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="75" endline="75" begincolumn="2" endcolumn="102" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="application" class="BillController" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the pTypeList field if you want a default access modifier
+</violation>
+<violation beginline="78" endline="78" begincolumn="25" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="BillController" method="initialize" variable="location" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'location' is not assigned and could be declared final
+</violation>
+<violation beginline="78" endline="78" begincolumn="39" endcolumn="62" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="BillController" method="initialize" variable="resources" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'resources' is not assigned and could be declared final
+</violation>
+<violation beginline="118" endline="118" begincolumn="28" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="BillController" method="onChangepType" variable="event" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'event' is not assigned and could be declared final
+</violation>
+<violation beginline="139" endline="139" begincolumn="25" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="BillController" method="addProduct" variable="event" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'event' is not assigned and could be declared final
+</violation>
+<violation beginline="162" endline="162" begincolumn="33" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="BillController" method="eventProductDelete" variable="event" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'event' is not assigned and could be declared final
+</violation>
+<violation beginline="171" endline="171" begincolumn="27" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="BillController" method="clearProduct" variable="event" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'event' is not assigned and could be declared final
+</violation>
+<violation beginline="186" endline="186" begincolumn="31" endcolumn="32" rule="AddEmptyString" ruleset="Performance" package="application" class="BillController" method="setPrice" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_performance.html#addemptystring" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="187" endline="187" begincolumn="28" endcolumn="29" rule="AddEmptyString" ruleset="Performance" package="application" class="BillController" method="setPrice" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_performance.html#addemptystring" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="205" endline="205" begincolumn="35" endcolumn="63" rule="UselessParentheses" ruleset="Code Style" package="application" class="BillController" method="setProductTotalPrice" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="206" endline="206" begincolumn="5" endcolumn="26" rule="EmptyCatchBlock" ruleset="Error Prone" package="application" class="BillController" method="setProductTotalPrice" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="209" endline="209" begincolumn="32" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="BillController" method="percentageTotal" variable="value" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'value' is not assigned and could be declared final
+</violation>
+<violation beginline="214" endline="214" begincolumn="26" endcolumn="30" rule="MisplacedNullCheck" ruleset="Error Prone" package="application" class="BillController" method="percentageTotal" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_errorprone.html#misplacednullcheck" priority="3">
+The null check here is misplaced; if the variable 'value' is null there will be a NullPointerException
+</violation>
+<violation beginline="221" endline="221" begincolumn="5" endcolumn="26" rule="EmptyCatchBlock" ruleset="Error Prone" package="application" class="BillController" method="percentageTotal" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="232" endline="232" begincolumn="22" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="BillController" method="newBill" variable="event" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'event' is not assigned and could be declared final
+</violation>
+<violation beginline="239" endline="239" begincolumn="20" endcolumn="24" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="application" class="BillController" method="newBill" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "0.0" appears 4 times in this file; the first occurrence is on line 239
+</violation>
+<violation beginline="243" endline="243" begincolumn="23" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="BillController" method="saveBill" variable="event" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'event' is not assigned and could be declared final
+</violation>
+<violation beginline="273" endline="273" begincolumn="24" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="BillController" method="printBill" variable="event" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'event' is not assigned and could be declared final
+</violation>
+<violation beginline="288" endline="288" begincolumn="19" endcolumn="20" rule="ShortVariable" ruleset="Code Style" package="application" class="BillController" method="printBill" variable="ps" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like ps
+</violation>
+<violation beginline="296" endline="296" begincolumn="6" endcolumn="23" rule="SystemPrintln" ruleset="Best Practices" package="application" class="BillController" method="printBill" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="306" endline="306" begincolumn="22" endcolumn="24" rule="CloseResource" ruleset="Error Prone" package="application" class="BillController" method="printBill" variable="fis" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileInputStream object are closed after use
+</violation>
+<violation beginline="308" endline="308" begincolumn="17" endcolumn="31" rule="AvoidFileStream" ruleset="Performance" package="application" class="BillController" method="printBill" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="325" endline="325" begincolumn="34" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="BillController" method="checkBilling" variable="event" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'event' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\kocha\ideaProjects\pmd-task\src\main\java\application\Main.java">
+<violation beginline="12" endline="12" begincolumn="26" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="Main" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="20" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="application" class="Main" method="start" variable="primaryStage" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'primaryStage' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\kocha\ideaProjects\pmd-task\src\main\java\beans\BillingBean.java">
+<violation beginline="24" endline="24" begincolumn="31" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="BillingBean" method="setInvoiceNumber" variable="invoiceNumber" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'invoiceNumber' is not assigned and could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="30" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="BillingBean" method="setCustomerName" variable="customerName" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'customerName' is not assigned and could be declared final
+</violation>
+<violation beginline="36" endline="36" begincolumn="33" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="BillingBean" method="setCustomerContact" variable="customerContact" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'customerContact' is not assigned and could be declared final
+</violation>
+<violation beginline="42" endline="42" begincolumn="33" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="BillingBean" method="setCustomerAddress" variable="customerAddress" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'customerAddress' is not assigned and could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="31" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="BillingBean" method="setSubTotalPrice" variable="subTotalPrice" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'subTotalPrice' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="26" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="BillingBean" method="setDiscount" variable="discount" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'discount' is not assigned and could be declared final
+</violation>
+<violation beginline="60" endline="60" begincolumn="31" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="BillingBean" method="setDiscountPrice" variable="discountPrice" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'discountPrice' is not assigned and could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="21" endcolumn="30" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="BillingBean" method="setTax" variable="tax" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'tax' is not assigned and could be declared final
+</violation>
+<violation beginline="72" endline="72" begincolumn="26" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="BillingBean" method="setTaxPrice" variable="taxPrice" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'taxPrice' is not assigned and could be declared final
+</violation>
+<violation beginline="78" endline="78" begincolumn="28" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="BillingBean" method="setTotalPrice" variable="totalPrice" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'totalPrice' is not assigned and could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="26" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="BillingBean" method="setProducts" variable="products" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'products' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\kocha\ideaProjects\pmd-task\src\main\java\beans\ProductBean.java">
+<violation beginline="15" endline="16" begincolumn="9" endcolumn="2" rule="UnnecessaryConstructor" ruleset="Code Style" package="beans" class="ProductBean" method="ProductBean" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="22" endline="22" begincolumn="22" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="ProductBean" method="setType" variable="type" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'type' is not assigned and could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="36" endcolumn="60" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="ProductBean" method="setProductDescription" variable="productDescription" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'productDescription' is not assigned and could be declared final
+</violation>
+<violation beginline="38" endline="38" begincolumn="30" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="ProductBean" method="setSerialNumber" variable="serialNumber" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'serialNumber' is not assigned and could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="27" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="ProductBean" method="setUnitPrice" variable="unitPrice" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'unitPrice' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="ProductBean" method="setNoOfUnits" variable="noOfUnits" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'noOfUnits' is not assigned and could be declared final
+</violation>
+<violation beginline="62" endline="62" begincolumn="27" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="beans" class="ProductBean" method="setTotalCost" variable="totalCost" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'totalCost' is not assigned and could be declared final
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,28 @@
+plugins {
+	id 'java'
+	id 'application'
+	id 'pmd'
+	id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+
+mainClassName = 'application.Main'
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "14"
+    modules = [ 'javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+    implementation files(fileTree(dir: 'jar_files', includes: ['*.jar']))
+}
+
+pmd {
+    toolVersion = '6.51.0'
+    ruleSetFiles = files("pmd.xml")
+    ruleSets = []
+}
